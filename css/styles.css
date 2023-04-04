@@ -1,7 +1,11 @@
 :root {
   --main-font: 'Roboto', sans-serif;
-  --prymary-font-color: #2e2f42;
-  --secondary-font-color: #434455;
+  --background-color: #ffffff;
+  --first-sec-background-color: #2e2f42;
+  --footer-sec-color: #2E2F42; 
+  --logo-primary-color: #4d5ae5;
+  --logo-secondary-color: #2e2f42;
+
   --accent-color: #404bbf;
 }
 
@@ -14,7 +18,8 @@
 
 body {
   font-family: var(--main-font);
-  color: var(--prymary-font-color);
+  color: #434455;
+  background-color: var(--background-color);
 }
 
 /*=====Componenets=====*/
@@ -22,13 +27,13 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
   /* NAVY BLUE */
-  color: var(--prymary-font-color);
+  color: #2e2f42;
 }
 
 .footer-text {
@@ -40,22 +45,27 @@ body {
   /* CLOUD */
   color: #f4f4fd;
 }
+
+.footer-section {
+    background-color: var(--footer-sec-color);
+}
 /*===== /Componenets=====*/
 
 /*=============Header========*/
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1, 17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  /* NAVY BLUE */
-  color: var(--prymary-font-color);
+  /* IRIS */
+  color: var(--logo-primary-color);
 }
 .accent {
   font-family: 'Raleway', sans-serif;
@@ -68,7 +78,16 @@ body {
   text-transform: uppercase;
 
   /* IRIS */
-  color: #4d5ae5;
+  color: var(--logo-secondary-color);
+}
+
+
+.accent-dark-backg{
+color:#F4F4FD
+}
+
+.contacts {
+  font-style: normal;
 }
 .contacts-link {
   font-style: normal;
@@ -78,7 +97,7 @@ body {
   letter-spacing: 0.02em;
 
   /* SLATE */
-  color: var(--secondary-font-color);
+  color: #434455;
 }
 
 .contacts-link:hover,
@@ -94,7 +113,7 @@ body {
   letter-spacing: 0.02em;
 
   /* NAVY BLUE */
-  color: var(--prymary-font-color);
+  color: #2e2f42;
 }
 
 .menu-link:hover,
@@ -105,16 +124,20 @@ body {
 
 /*============ /Header========*/
 /*=========Hero=========*/
-
+.hero {
+  background-color: var(--first-sec-background-color);
+}
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 
-  color: #d9d9d9;
+  color: #ffffff;
 }
 .modal-btn {
+ font-family: 'Roboto',sans-serif
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -142,7 +165,7 @@ body {
   letter-spacing: 0.02em;
 
   /* NAVY BLUE */
-  color: var(--prymary-font-color);
+  color: #2e2f42;
 }
 .benefits-description {
   font-weight: 400;
@@ -151,12 +174,19 @@ body {
   letter-spacing: 0.02em;
 
   /* SLATE */
-  color: var(--secondary-font-color);
+  color: #434455;
 }
 
 /*======= /Benefits=====*/
 
 /*======Our Team===*/
+
+.team {
+    background-color:  #F4F4FD;
+}
+.team-item {
+    background-color: #ffffff;
+}
 .initials {
   font-weight: 500;
   font-size: 20px;
@@ -165,7 +195,7 @@ body {
   letter-spacing: 0.02em;
 
   /* NAVY BLUE */
-  color: var(--prymary-font-color);
+  color: #2e2f42;
 }
 .job-title {
   font-weight: 400;
@@ -175,7 +205,7 @@ body {
   letter-spacing: 0.02em;
 
   /* SLATE */
-  color: var(--secondary-font-color);
+  color: #434455;
 }
 
 /*====== /Our Team===*/
@@ -188,7 +218,7 @@ body {
   letter-spacing: 0.02em;
 
   /* NAVY BLUE */
-  color: var(--prymary-font-color);
+  color: #2e2f42;
 }
 .portfolio-discr {
   font-weight: 400;
@@ -197,7 +227,7 @@ body {
   letter-spacing: 0.02em;
 
   /* SLATE */
-  color: var(--secondary-font-color);
+  color: #434455;
 }
 .portf-button {
   font-weight: 500;
