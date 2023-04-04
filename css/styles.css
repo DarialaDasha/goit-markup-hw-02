@@ -1,0 +1,223 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --prymary-font-color: #2e2f42;
+  --secondary-font-color: #434455;
+  --accent-color: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--prymary-font-color);
+}
+
+/*=====Componenets=====*/
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+  color: var(--prymary-font-color);
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+
+  /* CLOUD */
+  color: #f4f4fd;
+}
+/*===== /Componenets=====*/
+
+/*=============Header========*/
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* NAVY BLUE */
+  color: var(--prymary-font-color);
+}
+.accent {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* IRIS */
+  color: #4d5ae5;
+}
+.contacts-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: var(--secondary-font-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  /* OCEAN */
+  color: var(--accent-color);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: var(--prymary-font-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  /* OCEAN */
+  color: var(--accent-color);
+}
+
+/*============ /Header========*/
+/*=========Hero=========*/
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+
+  color: #d9d9d9;
+}
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  /* WHITE */
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+}
+
+/*========= /Hero=========*/
+/*=======Benefits=====*/
+
+.benefits-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: var(--prymary-font-color);
+}
+.benefits-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: var(--secondary-font-color);
+}
+
+/*======= /Benefits=====*/
+
+/*======Our Team===*/
+.initials {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: var(--prymary-font-color);
+}
+.job-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: var(--secondary-font-color);
+}
+
+/*====== /Our Team===*/
+
+/*======Portfolio===*/
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: var(--prymary-font-color);
+}
+.portfolio-discr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: var(--secondary-font-color);
+}
+.portf-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  cursor: pointer;
+
+  /* IRIS */
+  color: #4d5ae5;
+}
+
+.portf-button:hover,
+.portf-button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/*====== /Portfolio===*/
